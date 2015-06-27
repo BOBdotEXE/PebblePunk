@@ -1,0 +1,74 @@
+{
+    "appKeys": {
+        "Color": 2
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "bobdotexe",
+    "longName": "cyberpunk neon watch",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/cyberpunk_icon.png",
+                "menuIcon": true,
+                "name": "icon",
+                "type": "png"
+            },
+            {
+                "file": "images/erase_min_2.png",
+                "name": "glitch_min_2",
+                "type": "png"
+            },
+            {
+                "file": "images/erase_min_1.png",
+                "name": "glitch_min_1",
+                "type": "png"
+            },
+            {
+                "file": "images/cyberpunk_watch_boarder_2.png",
+                "name": "border",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9%]",
+                "file": "fonts/TickingTimebombBB.ttf",
+                "name": "FONT_digital_16",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:A-Za-z ]",
+                "file": "fonts/marspolice_i.ttf",
+                "name": "FONT_cutout_14",
+                "type": "font"
+            },
+            {
+                "file": "images/screen_filter.png",
+                "name": "fade",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[0-9:A-Za-z ]",
+                "file": "fonts/Rabid Science.ttf",
+                "name": "FONT_CYBER_FONT_32",
+                "type": "font"
+            },
+            {
+                "file": "images/frame_000_0.png",
+                "name": "bg_blue",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "CyberPunk",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "388ab32a-653b-4d96-8a8f-d73fb0c935d1",
+    "versionLabel": "0.52",
+    "watchapp": {
+        "watchface": true
+    }
+}
