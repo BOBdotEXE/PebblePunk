@@ -1,0 +1,75 @@
+{
+    "author": "bobdotexe",
+    "dependencies": {},
+    "keywords": [],
+    "name": "cyberpunk",
+    "pebble": {
+        "displayName": "cyberpunk neon watch",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/screen_filter.png",
+                    "name": "fade",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/frame_000_0.png",
+                    "name": "bg_blue",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/cyberpunk_icon.png",
+                    "menuIcon": true,
+                    "name": "icon",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/erase_min_2.png",
+                    "name": "glitch_min_2",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/erase_min_1.png",
+                    "name": "glitch_min_1",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/cyberpunk_watch_boarder_2.png",
+                    "name": "border",
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9%]",
+                    "file": "fonts/TickingTimebombBB.ttf",
+                    "name": "FONT_digital_16",
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:A-Za-z ]",
+                    "file": "fonts/marspolice_i.ttf",
+                    "name": "FONT_cutout_14",
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[0-9:A-Za-z ]",
+                    "file": "fonts/Rabid Science.ttf",
+                    "name": "FONT_CYBER_FONT_32",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "388ab32a-653b-4d96-8a8f-d73fb0c935d1",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "0.53.0"
+}

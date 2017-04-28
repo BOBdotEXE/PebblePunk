@@ -6,7 +6,7 @@ static TextLayer *s_battery_layer; //text layer for battery percentage
 static TextLayer *s_date_layer; //Layer layer for current date 
 static TextLayer *s_dow_layer; //Layer layer for current date
 static TextLayer *s_disconnect_layer;
-static GFont *s_time_font,*s_date_font,*s_battery_font;
+static GFont s_time_font,s_date_font,s_battery_font;
 static BitmapLayer *s_background_layer;
 static GBitmap *s_background_bitmap;
 static GBitmap *s_border_bitmap;
@@ -21,7 +21,7 @@ int f_delay =150;
 int m_g_delay=90;
 int h_g_delay=90;
 int g_interval =18; //glitces every 'g_interval' seconds
-bool vib_hour =true;
+bool vib_hour =false;
 int last_hour =24; //that's not possible!
 int m_g_frame =0;
 int h_g_frame =0;
